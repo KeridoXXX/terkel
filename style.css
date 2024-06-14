@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Bauhaus Std";
+  src: url("font/BauhausStd-Bold.eot");
+  src: local("Bauhaus Std Bold"), local("BauhausStd-Bold"),
+    url("font/BauhausStd-Bold.eot?#iefix") format("embedded-opentype"),
+    url("font/BauhausStd-Bold.woff2") format("woff2"),
+    url("font/BauhausStd-Bold.woff") format("woff"),
+    url("font/BauhausStd-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #f00389;
+  color: #fff;
+  cursor: pointer;
+  padding: 1.2rem;
+  display: flex;
+  width: 80vw;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 40px;
+  margin-inline: 1rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active,
+.collapsible:hover {
+  background-color: #f00389;
+} */
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #fef200;
+}
+
+body {
+  background-color: #fef200;
+}
+
+p {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-family: Bauhaus Std;
+  font-size: 4rem;
+  padding: 1rem;
+  padding-inline: 1rem;
+  color: #f00389;
+}
+
+h2 {
+  font-family: Bauhaus Std;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+button {
+  font-family: Bauhaus Std;
+  /* margin: 2rem; */
+  margin-block: 1rem;
+  box-shadow: 6px 10px #990355;
+}
+
+.iframe {
+  width: 80vw;
+}
+
+.special {
+  background-color: #d02828;
+  box-shadow: 6px 10px #bb2424;
+}
